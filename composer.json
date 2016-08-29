@@ -1,0 +1,20 @@
+{
+    "name": "visioncritical/wordpress-to-confluence",
+    "description": "Wordpress to Confluence migration utility",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "hieu-le/wordpress-xmlrpc-client": "^2.5",
+        "mmucklo/krumo": "^0.5.6",
+        "nategood/httpful": "^0.2.20",
+        "pwfisher/command-line-php": "dev-master",
+        "seld/cli-prompt": "^1.0",
+        "particle/validator": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "mike.sollanych",
+            "email": "mike.sollanych@visioncritical.com"
+        }
+    ]
+}

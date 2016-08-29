@@ -1,0 +1,326 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6b9be8bf13c62cc5f6fdc43119a1e7dc",
+    "content-hash": "6268ac3b4b9e541b09ac254e6298b983",
+    "packages": [
+        {
+            "name": "hieu-le/wordpress-xmlrpc-client",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/letrunghieu/wordpress-xmlrpc-client.git",
+                "reference": "64ce550961b1885b8fc8b63dec66670f54fff28f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/letrunghieu/wordpress-xmlrpc-client/zipball/64ce550961b1885b8fc8b63dec66670f54fff28f",
+                "reference": "64ce550961b1885b8fc8b63dec66670f54fff28f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlrpc": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "illuminate/support": "~4.0",
+                "php-vcr/php-vcr": "^1.0",
+                "php-vcr/phpunit-testlistener-vcr": "*",
+                "phpunit/phpunit": "*",
+                "symfony/yaml": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HieuLe\\WordpressXmlrpcClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hieu Le",
+                    "email": "letrunghieu.cse09@gmail.com",
+                    "homepage": "http://www.hieule.info"
+                }
+            ],
+            "description": "A PHP client for Wordpress websites that closely implement the XML-RPC WordPress API with full test suite built in",
+            "keywords": [
+                "api",
+                "client",
+                "remote",
+                "wordpress",
+                "xmlrpc"
+            ],
+            "time": "2016-02-04 08:05:47"
+        },
+        {
+            "name": "mmucklo/krumo",
+            "version": "v0.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mmucklo/krumo.git",
+                "reference": "717f19f5441104699a4cc9f8601ad406a30588d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mmucklo/krumo/zipball/717f19f5441104699a4cc9f8601ad406a30588d4",
+                "reference": "717f19f5441104699a4cc9f8601ad406a30588d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.17"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "class.krumo.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Kaloyan K. Tsvetkov",
+                    "email": "kaloyan@kaloyan.info"
+                },
+                {
+                    "name": "Stefan Thomas",
+                    "email": "moon@justmoon.de"
+                },
+                {
+                    "name": "Matthew J. Mucklo",
+                    "email": "mmucklo@gmail.com"
+                },
+                {
+                    "name": "Scott Baker",
+                    "email": "scott@perturb.org"
+                }
+            ],
+            "description": "KRUMO - version 2.0 of print_r(); and var_dump(); (with new updates)",
+            "keywords": [
+                "debug",
+                "debugging",
+                "krumo",
+                "pretty",
+                "print",
+                "print_r",
+                "var_dump"
+            ],
+            "time": "2016-02-02 07:39:38"
+        },
+        {
+            "name": "nategood/httpful",
+            "version": "0.2.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "time": "2015-10-26 16:11:30"
+        },
+        {
+            "name": "particle/validator",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/particle-php/Validator.git",
+                "reference": "40bbbd324cb59b5fc890bfb11d0117c543ef347b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/particle-php/Validator/zipball/40bbbd324cb59b5fc890bfb11d0117c543ef347b",
+                "reference": "40bbbd324cb59b5fc890bfb11d0117c543ef347b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Particle\\Validator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Berry Langerak",
+                    "email": "berry@berryllium.nl",
+                    "role": "developer"
+                },
+                {
+                    "name": "Rick van der Staaij",
+                    "homepage": "http://rickvanderstaaij.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Flexible and highly usable validation library with no dependencies.",
+            "homepage": "http://github.com/particle-php/validator",
+            "keywords": [
+                "validation",
+                "validator"
+            ],
+            "time": "2015-10-30 13:36:30"
+        },
+        {
+            "name": "pwfisher/command-line-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pwfisher/CommandLine.php.git",
+                "reference": "ce756a94efa3544b56d03a02d3634a8d969ee962"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pwfisher/CommandLine.php/zipball/ce756a94efa3544b56d03a02d3634a8d969ee962",
+                "reference": "ce756a94efa3544b56d03a02d3634a8d969ee962",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "CommandLine.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Fisher",
+                    "email": "patrick@pwfisher.com"
+                }
+            ],
+            "description": "PHP Command Line interface class. Provides friendly and flexible CLI argument parsing.",
+            "keywords": [
+                "cli",
+                "parser",
+                "parsing"
+            ],
+            "time": "2014-09-23 01:07:11"
+        },
+        {
+            "name": "seld/cli-prompt",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/cli-prompt.git",
+                "reference": "b27db1514f7d7bb7a366ad95d4eb2b17140a0691"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/cli-prompt/zipball/b27db1514f7d7bb7a366ad95d4eb2b17140a0691",
+                "reference": "b27db1514f7d7bb7a366ad95d4eb2b17140a0691",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Seld\\CliPrompt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be"
+                }
+            ],
+            "description": "Allows you to prompt for user input on the command line, and optionally hide the characters they type",
+            "keywords": [
+                "cli",
+                "console",
+                "hidden",
+                "input",
+                "prompt"
+            ],
+            "time": "2016-01-09 17:55:27"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "pwfisher/command-line-php": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
